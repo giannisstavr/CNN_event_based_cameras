@@ -27,3 +27,4 @@ Similarly, for other missing packages, replace "opencv-python" with the name of 
 ## Additional Notes:
 Possibly the model could have been better if a different base model was used. Due to time limitations and Colab restricting gpu usage I wasn't able to try anything else except from VGG16. ResNet and EfficientNet are a good starting point if you want to try it yourself.
 
+You can use format_picture_name.py to format you file names in the data set in order to feed them all at once to test the model once it is trained. See the loop at the end of the image_classifier_for_welds.py.
